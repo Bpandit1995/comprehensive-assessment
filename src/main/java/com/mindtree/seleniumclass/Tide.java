@@ -9,7 +9,7 @@ public class Tide {
 
 	public static void main(String[] args) throws InterruptedException 
 	{
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe"); 
+		 System.setProperty("webdriver.chrome.driver", ".\\drivers\\chromedriver.exe"); 
 			
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://tide.com/en-us");
