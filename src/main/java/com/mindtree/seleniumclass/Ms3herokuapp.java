@@ -83,6 +83,8 @@ public class Ms3herokuapp {
 		//STEP-8
 		
 		driver.findElement(By.xpath("//a[@href='/windows']")).click();
+		 Thread.sleep(2000L);
+		
 		driver.findElement(By.xpath("//a[contains(text(),'Click Here')]")).click();
 		
 	       Thread.sleep(2000L);
